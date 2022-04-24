@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --outline-color: white;
+    --background-color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg,#00313c,#532c4a, #e31c79 ) ;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 50px;
+    
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: larger;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between ;
+    max-width: 100%;
+    justify-content: center;
+
+}
+
+.card-container {
+    display: inline-grid;
+    gap: 50px;
+    padding: 25px;
+    margin: 25px 25px 25px 25px;
+    width: 550px;
+    height: 550px;
+    outline: 5px dashed coral;
+    background-color: white;
+    transition: 0.4s;
+    box-shadow: 10px 10px 15px;
+    border-radius: 30px;
+    
+          
+}
+
+.card-container:hover {
+    box-shadow: 2px 2px 25px aqua;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    outline:  5px solid #e31c79;
+    font-weight: bold;
+    font-size: 48px;
+    padding-top: -3px;
+    margin-top: -60px;
+    background-color: aqua;
+    z-index: 2;
+    border-radius: 8px;
+    color: #00313c;
+ 
+}
+
+.card-subtitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: black;
+    
+  
+
+}
+
+.card-content {
+    background: linear-gradient(#e31c79, #00313c);
+    box-shadow: 1px 1px 8px black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+    
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+
+}
